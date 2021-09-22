@@ -1,4 +1,6 @@
+import { Component, Input } from '@angular/core';
 import { of } from 'rxjs';
+import { Hero } from '../hero';
 import { HeroesComponent } from './heroes.component'
 
 describe('HeroesComponent (Isolated)', () => {
