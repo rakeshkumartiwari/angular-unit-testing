@@ -1,6 +1,6 @@
 import { HeroComponent } from './hero.component'
 
-describe('HeroComponent', () => {
+describe('HeroComponent (Isolated)', () => {
     let component: HeroComponent;
 
     beforeEach(() => {
