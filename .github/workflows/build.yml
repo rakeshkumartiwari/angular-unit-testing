@@ -19,13 +19,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-# Publish code coverage results
-# Publish Cobertura or JaCoCo code coverage results from a build
-- task: PublishCodeCoverageResults@1
-  inputs:
-    codeCoverageTool: 'JaCoCo' # Available options: 'JaCoCo', 'Cobertura'
-    summaryFileLocation: 
-    #pathToSources: # Optional
-    #reportDirectory: # Optional
-    #additionalCodeCoverageFiles: # Optional
-    #failIfCoverageEmpty: false # Optional
